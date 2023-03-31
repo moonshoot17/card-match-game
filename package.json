@@ -1,5 +1,5 @@
 {
-	"name": "memory-matching-game",
+	"name": "card-match-game",
 	"private": true,
 	"version": "0.1.0",
 	"type": "module",
@@ -7,7 +7,7 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"build:gh-pages": "tsc && vite build --base=https://riyadh-dev.github.io/memory-matching-game/",
+		"build:gh-pages": "tsc && vite build --base=https://moonshot17.github.io/card-match-game/",
 		"deploy:gh-pages": "gh-pages -d dist",
 		"build:deploy": "pnpm build:gh-pages && pnpm deploy:gh-pages"
 	},
