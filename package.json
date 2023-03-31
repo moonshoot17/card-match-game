@@ -7,7 +7,7 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"build:gh-pages": "tsc && vite build --base=https://moonshot17.github.io/card-match-game/",
+		"build:gh-pages": "tsc && vite build --base=https://moonshoot17.github.io/card-match-game/",
 		"deploy:gh-pages": "gh-pages -d dist",
 		"build:deploy": "pnpm build:gh-pages && pnpm deploy:gh-pages"
 	},
